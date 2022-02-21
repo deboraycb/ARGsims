@@ -108,7 +108,7 @@ do for s2 in $(seq $((s1+1)) $((NSPL-1)))
             Rscript thin.R relate_${PREF}_${s1}-${s2}_Tcpair.txt $((2*Ne))
         else    
             echo '---> outputCoalTime samples '$s1 $s2
-            ../outputCoalTime relate_${PREF}_${s1}-${s2}_Tcpair.txt ../../tcoalmsp/rep${REP}/${PREF}_spls${s1}-${s2}.tc ${PREF}_spl1000branch.anc ${PREF}_spl1000branch.mut $Ne $s1 $s2 
+            ./outputCoalTime relate_${PREF}_${s1}-${s2}_Tcpair.txt ../../tcoalmsp/rep${REP}/${PREF}_spls${s1}-${s2}.tc ${PREF}_spl1000branch.anc ${PREF}_spl1000branch.mut $Ne $s1 $s2 
             echo '---> thinning relate_'${PREF}'_'${s1}'-'${s2}'_Tcpair.txt'
             Rscript thin.R relate_${PREF}_${s1}-${s2}_Tcpair.txt $((2*Ne))
         fi
