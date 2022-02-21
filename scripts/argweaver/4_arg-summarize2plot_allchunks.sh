@@ -91,7 +91,7 @@ do
     fi
     NRANKS=$(((NITER-BURN)/10+1))
     if [ ! -s "${TOPLOT}_ranks.bed" ]; then
-        echo "---> get ranks: python ~/scratch/argbias/simulations_3/scripts/argw/coalTimeRank.py ${TOPLOT}.bed ${TCSIMFILE}.bed $((NRANKS-1))" 
+        echo "---> get ranks: python coalTimeRank.py ${TOPLOT}.bed ${TCSIMFILE}.bed $((NRANKS-1))" 
         python coalTimeRank.py ${TOPLOT}.bed ${TCSIMFILE}.bed $((NRANKS-1))
     fi
 done

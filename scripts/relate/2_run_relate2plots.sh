@@ -23,15 +23,6 @@
 #
 # Example - how to run this SLURM script:
 #
-#cd /global/scratch/users/deboraycb/argbias/simulations_3/relate/m2e9
-#sbatch --job-name=RelM2e9 --output=%A_RelM2e9.out --export=PREF=sim_m2e9_0,NSPL=8,RECMAP=../input/sim_std.map,Ne=10000,MUT=2e-9,s0=0,LEN=100000000 /global/scratch/users/deboraycb/argbias/simulations_3/scripts/relate/2_run_relate2plots.sh
-#
-#cd /global/scratch/users/deboraycb/argbias/simulations_3/relate/r2e7
-#sbatch --job-name=RelR2e7 --output=%A_RelR2e7.out --export=PREF=sim_r2e7_0,NSPL=8,RECMAP=../input/sim_r2e7.map,Ne=10000,MUT=2e-8,s0=0,LEN=100000000 /global/scratch/users/deboraycb/argbias/simulations_3/scripts/relate/2_run_relate2plots.sh
-#
-#cd /global/scratch/users/deboraycb/argbias/simulations_3/relate/l5mb
-#sbatch --job-name=RelL5mb --output=%A_RelL5mb.out --export=PREF=sim_l5mb_0,NSPL=8,RECMAP=../input/sim_std.map,Ne=10000,MUT=2e-8,s0=0,LEN=5000000 /global/scratch/users/deboraycb/argbias/simulations_3/scripts/relate/2_run_relate2plots.sh
-#
 #cd /global/scratch/users/deboraycb/argbias/simulations_3/relate/l250kb
 #sbatch --job-name=RelL250kb --output=%A_RelL250kb.out --export=PREF=sim_l250kb_0,NSPL=8,RECMAP=../input/sim_std.map,Ne=10000,MUT=2e-8,s0=0,LEN=250000 /global/scratch/users/deboraycb/argbias/simulations_3/scripts/relate/2_run_relate2plots.sh
 #

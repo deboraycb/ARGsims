@@ -16,8 +16,6 @@ pos COMBINED_rate Genetic_Map
 
 This file is space delimited. 
 
-~/scratch/argbias/simulations_3/relate/input$ more *map
-
 1) same rate for all 100Mb, so pos column is 0, 99999999
 -> 1cM = 1e-2 recombination probability
 3) 2e-8 rec/1e-2 rec  X 1e8 bp = 200cM
