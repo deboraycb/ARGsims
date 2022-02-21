@@ -5,10 +5,10 @@ https://www.biorxiv.org/content/10.1101/2021.11.15.468686v2.abstract
 
 ## Simulations
 
-- 1_msprime_sim.py
+- `1_msprime_sim.py`
 Simulations with msprime
 
-- 2_msprimefinitesites.py
+- `2_msprimefinitesites.py`
 Add mutations under JC finite sites model to previously simulated trees
 
 
