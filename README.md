@@ -27,7 +27,7 @@ Add mutations under JC finite sites model to previously simulated trees
 - `plot_ranks.R` plot distribution of ranks
 - `organizeQuantileOutput` get counts of ranks
 
-### scripts/argweaver
+### ARGweaver scripts (in scripts/argweaver)
 
 - `2_vcf2sites.py` convert vcf to ARGweaver sites input format
 - `3_run_argweaver_smcprime_hudsim.sh` run ARGweaver
@@ -41,7 +41,7 @@ Add mutations under JC finite sites model to previously simulated trees
 
 - `5_pointestimates.sh` plot point estimates of coalescence times
     
-### scripts/relate
+### Relate scripts (in scripts/relate)
 
 - `2_run_relate2plots.sh` run Relate, extract pw coalescence times and call all plotting scripts:
     
@@ -52,7 +52,7 @@ Add mutations under JC finite sites model to previously simulated trees
 
 - recombination maps: `sim_std.map`, `sim_r2e7.map`, `sim_r2e9.map`
 
-### scripts/tsinferdate
+### Tsinfer+tsdate scripts (in scripts/tsinferdate)
 
 - `2_tsinfer_date.py` run tsinfer+tsdate
 - `3_organizeTc.sh` match simulated to estimated coal times
