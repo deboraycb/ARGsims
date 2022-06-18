@@ -1,7 +1,7 @@
 # ARGsims
 
 Code and simulated data used for the paper "Evaluation of methods for estimating coalescence times using ancestral recombination graphs"
-https://www.biorxiv.org/content/10.1101/2021.11.15.468686v3
+https://www.biorxiv.org/content/10.1101/2021.11.15.468686v4
 
 ## trees
 tree sequences simulated with msprime (only the ones within github file size limit)
