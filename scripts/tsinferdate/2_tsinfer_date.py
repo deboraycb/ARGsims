@@ -78,10 +78,10 @@ def print_tc(dated_tree, n, pref, twoNe=20000):
             coaltimefh.close()
 
 # read vcf file
-vcfname = '../vcf/sim_'+simpref+'_0.vcf'
+vcfname = '../../vcf/sim_'+simpref+'_0.vcf.gz'
 vcf = cyvcf2.VCF(vcfname)
 with tsinfer.SampleData(
-    path="../vcf/sim_"+simpref+"_0.samples", sequence_length=chromosome_length(vcf)
+    path="../../vcf/sim_"+simpref+"_0.samples", sequence_length=chromosome_length(vcf)
 ) as samples:
     add_diploid_sites(vcf, samples)
 
