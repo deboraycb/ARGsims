@@ -9,6 +9,7 @@ import cyvcf2
 import numpy as np
 import argparse
 import gzip
+from pathlib import Path
 
 parser = argparse.ArgumentParser(description = "run tsinfer and tsdate with vcf from msprime simulation as input")
 parser.add_argument('pref', help='prefix from simulation')
@@ -33,6 +34,8 @@ args = parser.parse_args()
 simpref=args.pref
 nspl=args.nspl
 mu=args.mu
+
+Path(simpref).mkdir(parents=True, exist_ok=True)
 
 def add_diploid_sites(vcf, samples):
     """
