@@ -4,7 +4,7 @@ import msprime
 
 vcfdir='../vcf/'
 tcdir='../tcoalmsp/'
-tsdir='../treeseq/'
+tsdir='../trees/'
 nrep=1
 
 def simulate(nrep, pref, n, mu=2e-8, rec=2e-8, Ne=10000, length=100*10**6, vcfdir=vcfdir, tcdir=tcdir, tsdir=tsdir, model='hudson'):
